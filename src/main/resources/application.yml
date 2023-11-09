@@ -1,0 +1,19 @@
+server:
+  port: ${SERVER_PORT:8013}
+
+
+spring:
+  datasource:
+    url: ${DATASOURCE_URL}
+    username: ${DATASOURCE_USERNAME}
+    password: ${DATASOURCE_PASSWORD}
+  jpa:
+    properties:
+      hibernate:
+        ddl-auto: validate
+        dialect: org.hibernate.dialect.PostgreSQL92Dialect
+        show_sql: true
+        connection:
+          release_mode: auto
+          autocommit: false
+        generate_statistics: true
