@@ -16,7 +16,8 @@ Implements a custom Bloom filter using MurmurHash3 – a widely-used non-cryptog
 
 Here's an example output illustrating that when the Bloom filter indicates an element is not present, it is undoubtedly absent. However, when the Bloom filter suggests an element is present, it is not definitive; there is a possibility that the element may or may not be present.
 
-![output-bloomFilter](https://github.com/anasmohammad611/messybloom/assets/42072227/5bae59f3-4bfb-481a-90a1-1f4d2e34fc3b)
+![output-bloomFilter](https://github.com/anasmohammad611/messybloom/assets/42072227/b4947773-eb70-4135-9b05-5b6b413f41d6)
+
 
 
 ### Bloom Filter Use case
