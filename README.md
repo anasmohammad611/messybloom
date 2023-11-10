@@ -20,6 +20,13 @@ Here's an example output illustrating that when the Bloom filter indicates an el
 
 
 
+## Quick Start:
+
+1. Clone this repository.
+2. Explore the Guava and MurmurHash examples in the src directory.
+3. Copy and integrate the desired implementation into your project.
+
+
 ### Bloom Filter Use case
 
 Bloom filters find applications in scenarios where quick and memory-efficient set membership tests with an acceptable probability of false positives are essential. Some common use cases include:
